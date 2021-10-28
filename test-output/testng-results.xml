@@ -1,0 +1,238 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="4" passed="1" failed="3" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2021-10-28T09:34:17 IST" name="Suite" finished-at="2021-10-28T09:35:40 IST" duration-ms="82985">
+    <groups>
+    </groups>
+    <test started-at="2021-10-28T09:34:17 IST" name="Test" finished-at="2021-10-28T09:35:40 IST" duration-ms="82985">
+      <class name="Tests.Scenario_finalized_for_Automation_test.Automationpractice_tests.RegisterToWebsiteTest">
+        <test-method is-config="true" signature="intializeDriver()[pri:0, instance:Tests.Scenario_finalized_for_Automation_test.Automationpractice_tests.RegisterToWebsiteTest@4e91d63f]" started-at="2021-10-28T09:34:27 IST" name="intializeDriver" finished-at="2021-10-28T09:34:28 IST" duration-ms="702" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- intializeDriver -->
+        <test-method is-config="true" signature="openBrowser()[pri:0, instance:Tests.Scenario_finalized_for_Automation_test.Automationpractice_tests.RegisterToWebsiteTest@4e91d63f]" started-at="2021-10-28T09:34:28 IST" name="openBrowser" finished-at="2021-10-28T09:34:38 IST" duration-ms="10012" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openBrowser -->
+        <test-method signature="registration()[pri:0, instance:Tests.Scenario_finalized_for_Automation_test.Automationpractice_tests.RegisterToWebsiteTest@4e91d63f]" started-at="2021-10-28T09:34:38 IST" name="registration" finished-at="2021-10-28T09:35:00 IST" duration-ms="22050" status="FAIL">
+          <exception class="org.openqa.selenium.NoSuchElementException">
+            <message>
+              <![CDATA[Cannot locate option with value: ind
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-DIC7RLC', ip: '192.168.29.188', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17'
+Driver info: driver.version: unknown]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.NoSuchElementException: Cannot locate option with value: ind
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-DIC7RLC', ip: '192.168.29.188', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17'
+Driver info: driver.version: unknown
+at org.openqa.selenium.support.ui.Select.findOptionsByValue(Select.java:283)
+at org.openqa.selenium.support.ui.Select.selectByValue(Select.java:186)
+at Pages.Scenario_finalized_for_Automation_page.Automationpractice_pages.RegisterToWebsitePage.selectCountry(RegisterToWebsitePage.java:188)
+at Tests.Scenario_finalized_for_Automation_test.Automationpractice_tests.RegisterToWebsiteTest.registration(RegisterToWebsiteTest.java:36)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:134)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:597)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:816)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:766)
+at org.testng.TestRunner.run(TestRunner.java:587)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:384)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:378)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:337)
+at org.testng.SuiteRunner.run(SuiteRunner.java:286)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1187)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1109)
+at org.testng.TestNG.runSuites(TestNG.java:1039)
+at org.testng.TestNG.run(TestNG.java:1007)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.NoSuchElementException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- registration -->
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:Tests.Scenario_finalized_for_Automation_test.Automationpractice_tests.RegisterToWebsiteTest@4e91d63f]" started-at="2021-10-28T09:35:00 IST" name="closeBrowser" finished-at="2021-10-28T09:35:00 IST" duration-ms="171" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+      </class> <!-- Tests.Scenario_finalized_for_Automation_test.Automationpractice_tests.RegisterToWebsiteTest -->
+      <class name="Tests.Scenario_finalized_for_Automation_test.QA_click_jet_tests.NegativeTestBookFlightTest">
+        <test-method is-config="true" signature="intializeDriver()[pri:0, instance:Tests.Scenario_finalized_for_Automation_test.QA_click_jet_tests.NegativeTestBookFlightTest@1a04f701]" started-at="2021-10-28T09:34:17 IST" name="intializeDriver" finished-at="2021-10-28T09:34:19 IST" duration-ms="1970" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- intializeDriver -->
+        <test-method is-config="true" signature="openBrowser()[pri:0, instance:Tests.Scenario_finalized_for_Automation_test.QA_click_jet_tests.NegativeTestBookFlightTest@1a04f701]" started-at="2021-10-28T09:34:19 IST" name="openBrowser" finished-at="2021-10-28T09:34:22 IST" duration-ms="2455" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openBrowser -->
+        <test-method signature="NegativeTestSameDepAndArrivalLoc()[pri:0, instance:Tests.Scenario_finalized_for_Automation_test.QA_click_jet_tests.NegativeTestBookFlightTest@1a04f701]" started-at="2021-10-28T09:34:22 IST" name="NegativeTestSameDepAndArrivalLoc" finished-at="2021-10-28T09:34:27 IST" duration-ms="5377" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- NegativeTestSameDepAndArrivalLoc -->
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:Tests.Scenario_finalized_for_Automation_test.QA_click_jet_tests.NegativeTestBookFlightTest@1a04f701]" started-at="2021-10-28T09:34:27 IST" name="closeBrowser" finished-at="2021-10-28T09:34:27 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+      </class> <!-- Tests.Scenario_finalized_for_Automation_test.QA_click_jet_tests.NegativeTestBookFlightTest -->
+      <class name="Tests.Scenario_finalized_for_Automation_test.Automationpractice_tests.LoginWebsiteTest">
+        <test-method is-config="true" signature="intializeDriver()[pri:0, instance:Tests.Scenario_finalized_for_Automation_test.Automationpractice_tests.LoginWebsiteTest@d4342c2]" started-at="2021-10-28T09:35:00 IST" name="intializeDriver" finished-at="2021-10-28T09:35:01 IST" duration-ms="747" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- intializeDriver -->
+        <test-method is-config="true" signature="openBrowser()[pri:0, instance:Tests.Scenario_finalized_for_Automation_test.Automationpractice_tests.LoginWebsiteTest@d4342c2]" started-at="2021-10-28T09:35:01 IST" name="openBrowser" finished-at="2021-10-28T09:35:14 IST" duration-ms="12876" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openBrowser -->
+        <test-method signature="validLogin()[pri:1, instance:Tests.Scenario_finalized_for_Automation_test.Automationpractice_tests.LoginWebsiteTest@d4342c2]" started-at="2021-10-28T09:35:14 IST" name="validLogin" finished-at="2021-10-28T09:35:19 IST" duration-ms="5709" status="FAIL">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [true] but found [false]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [true] but found [false]
+at org.testng.Assert.fail(Assert.java:97)
+at org.testng.Assert.failNotEquals(Assert.java:969)
+at org.testng.Assert.assertTrue(Assert.java:43)
+at org.testng.Assert.assertTrue(Assert.java:53)
+at Tests.Scenario_finalized_for_Automation_test.Automationpractice_tests.LoginWebsiteTest.validLogin(LoginWebsiteTest.java:25)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:134)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:597)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:816)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:766)
+at org.testng.TestRunner.run(TestRunner.java:587)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:384)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:378)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:337)
+at org.testng.SuiteRunner.run(SuiteRunner.java:286)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1187)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1109)
+at org.testng.TestNG.runSuites(TestNG.java:1039)
+at org.testng.TestNG.run(TestNG.java:1007)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validLogin -->
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:Tests.Scenario_finalized_for_Automation_test.Automationpractice_tests.LoginWebsiteTest@d4342c2]" started-at="2021-10-28T09:35:19 IST" name="closeBrowser" finished-at="2021-10-28T09:35:20 IST" duration-ms="152" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+      </class> <!-- Tests.Scenario_finalized_for_Automation_test.Automationpractice_tests.LoginWebsiteTest -->
+      <class name="Tests.Scenario_finalized_for_Automation_test.Automationpractice_tests.NegativeAddToCartScenario">
+        <test-method is-config="true" signature="intializeDriver()[pri:0, instance:Tests.Scenario_finalized_for_Automation_test.Automationpractice_tests.NegativeAddToCartScenario@2bbf180e]" started-at="2021-10-28T09:35:20 IST" name="intializeDriver" finished-at="2021-10-28T09:35:20 IST" duration-ms="703" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- intializeDriver -->
+        <test-method is-config="true" signature="openBrowser()[pri:0, instance:Tests.Scenario_finalized_for_Automation_test.Automationpractice_tests.NegativeAddToCartScenario@2bbf180e]" started-at="2021-10-28T09:35:20 IST" name="openBrowser" finished-at="2021-10-28T09:35:31 IST" duration-ms="10944" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openBrowser -->
+        <test-method signature="NegativeOrderPlace()[pri:0, instance:Tests.Scenario_finalized_for_Automation_test.Automationpractice_tests.NegativeAddToCartScenario@2bbf180e]" started-at="2021-10-28T09:35:31 IST" name="NegativeOrderPlace" finished-at="2021-10-28T09:35:40 IST" duration-ms="8914" status="FAIL">
+          <exception class="org.openqa.selenium.ElementNotInteractableException">
+            <message>
+              <![CDATA[element not interactable: http://automationpractice.com/index.php?controller=cart&add=1&id_product=1&token=e817bb0705dd58da8db074c69f729fd8 has no size and location
+  (Session info: chrome=95.0.4638.54)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-DIC7RLC', ip: '192.168.29.188', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 95.0.4638.54, chrome: {chromedriverVersion: 94.0.4606.61 (418b78f5838ed..., userDataDir: C:\Users\SWATIP~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:62562}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: e4406455c2c500b92061e1673632d6e9]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.ElementNotInteractableException: element not interactable: http://automationpractice.com/index.php?controller=cart&add=1&id_product=1&token=e817bb0705dd58da8db074c69f729fd8 has no size and location
+  (Session info: chrome=95.0.4638.54)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-DIC7RLC', ip: '192.168.29.188', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 95.0.4638.54, chrome: {chromedriverVersion: 94.0.4606.61 (418b78f5838ed..., userDataDir: C:\Users\SWATIP~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:62562}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: e4406455c2c500b92061e1673632d6e9
+at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
+at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+at org.openqa.selenium.remote.RemoteWebDriver.perform(RemoteWebDriver.java:618)
+at org.openqa.selenium.interactions.Actions$BuiltAction.perform(Actions.java:639)
+at Pages.Scenario_finalized_for_Automation_page.Automationpractice_pages.PlaceOrderPage.clickOnaddToCartBtn(PlaceOrderPage.java:100)
+at Tests.Scenario_finalized_for_Automation_test.Automationpractice_tests.NegativeAddToCartScenario.NegativeOrderPlace(NegativeAddToCartScenario.java:25)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:134)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:597)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:816)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:766)
+at org.testng.TestRunner.run(TestRunner.java:587)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:384)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:378)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:337)
+at org.testng.SuiteRunner.run(SuiteRunner.java:286)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1187)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1109)
+at org.testng.TestNG.runSuites(TestNG.java:1039)
+at org.testng.TestNG.run(TestNG.java:1007)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.ElementNotInteractableException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- NegativeOrderPlace -->
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:Tests.Scenario_finalized_for_Automation_test.Automationpractice_tests.NegativeAddToCartScenario@2bbf180e]" started-at="2021-10-28T09:35:40 IST" name="closeBrowser" finished-at="2021-10-28T09:35:40 IST" duration-ms="156" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+      </class> <!-- Tests.Scenario_finalized_for_Automation_test.Automationpractice_tests.NegativeAddToCartScenario -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
